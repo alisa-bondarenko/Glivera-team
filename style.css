@@ -213,7 +213,7 @@ body{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;a
 .pricing_dark{padding:60px 0 44px;background:linear-gradient(161.3deg, #3D4251 7.63%, #272B35 90.9%);}
 .pricing_dark__title{text-align:center;font-size:32px;line-height:44px;font-weight:300;color:#fff;}
 .pricing_dark__list{padding:20px 0 36px;}
-.pricing_dark__item{max-width:380px;margin:20px auto 0;padding:48px 55px 40px;text-align:center;background:#fff;border:4px solid #fff;border-radius:6px;}
+.pricing_dark__item{max-width:380px;margin:20px auto 0;padding:48px 55px 40px;text-align:center;background:#fff;border:4px solid #fff;border-radius:6px;box-shadow:0px 8px 16px rgba(0, 0, 0, 0.501961);}
 .pricing_dark__time{position:relative;padding:0 0 14px;line-height:18px;font-weight:500;text-transform:uppercase;color:#323642;}
 .pricing_dark__time::after{display:block;content:'';position:absolute;bottom:5px;left:calc(50% - 12px);width:24px;height:2px;background:#4CB649;}
 .pricing_dark__price{padding:16px 0 0;line-height:66px;font-weight:300;font-size:56px;letter-spacing:-1.5px;color:#22252E;border-bottom:1px solid #EBECED;}
@@ -228,7 +228,7 @@ body{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;a
 @media only screen and (min-width:960px){
 .pricing_dark{padding:100px 0 57px;}
 .pricing_dark__title{font-size:48px;line-height:64px;}
-.pricing_dark__list{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;/*justify-content:space-between;*/align-items:center;}
+.pricing_dark__list{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;/*justify-content:space-between;*/align-items:center;padding:20px 0 54px;}
 .pricing_dark__item{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;flex-direction:column;justify-content:space-between;align-items:center;width:295px;padding:48px 50px 40px;}
 .pricing_dark__info{min-height:101px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;-webkit-flex-wrap:wrap;}
 .pricing_dark__item_active{padding:59px 50px;}
