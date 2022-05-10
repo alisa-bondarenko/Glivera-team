@@ -16,15 +16,6 @@ $(document).ready(function(){
 			$(this).parent().next().slideToggle();
 			$(this).toggleClass('subButtonActive');
 		});
-	
-	// w=$(window).width();
-	// if(w>1023){
-	// 	$('.subButton').click(function(e){
-	// 		e.preventDefault();
-	// 		$(this).parent().next().slideToggle();
-	// 		$(this).toggleClass('subButtonActive');
-	// 	});
-	// }
 
 	$(window).resize(function(){var ww=$(window).width();
 		if(ww>1023){
