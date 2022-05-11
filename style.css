@@ -42,7 +42,7 @@ body{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;a
 .header_info__item_isp{order:2;width:100%;padding:0 15px 0 0;text-align:center;}
 .header_info__item_button_box{order:1;padding:0 28px 0 0;text-align:right;}
 .header_info__button_box_a{text-decoration:none;color:#fff;}
-.header_info__close{position:absolute;top:0;right:-20px;width:45px;height:45px;padding:15px 0 0;text-align:center;cursor:pointer;}
+.header_info__close{position:absolute;top:0;right:-20px;width:45px;height:45px;padding:15px 0 0;text-align:center;cursor:pointer;background:url('img/baseline-close.svg') center center no-repeat;background-size:15px 15px;}
 @media only screen and (min-width:375px){
 .header_info__item_ip_address{order:2;width:55%;text-align:left;}
 .header_info__item_isp{order:2;width:45%;text-align:right;}
